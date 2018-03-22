@@ -1,0 +1,271 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(../fonts/Butler_Black.otf);
+}
+
+div{
+	font-family: myFirstFont;
+}
+
+.banner-area{
+    background-image: url("../images/banner.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+
+}
+
+.top-menu{
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.logo{
+     color: #000000; 
+     margin: 0px; 
+     font-weight: bold;
+}
+
+.menu li a{
+    font-weight: bold;
+
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    transition: .4s !important;
+}
+
+.banner-title{
+    text-align: center;
+    padding-top: 200px;
+}
+.banner-title h1{
+    color: #353535 !important;
+    font-weight: bold !important;
+}
+
+.follow-text{
+    border-right: 2px solid black;
+    height: 100px;
+}
+
+.follow-text p{
+    float: right;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+.follow-link{
+    height: 100px;
+}
+
+
+.follow-link a{
+    padding: 5px;
+}
+.follow-link a i{
+    margin-top: 80px;
+    color: #32302f;    
+    font-size: 20px;
+}
+
+
+
+.about-area{
+    padding-bottom: 60px;
+}
+
+.my_profile img{
+    width: 60%;
+    float: right;
+    margin: 5px;
+    border: 3px #373737 solid;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.about-title{
+    text-align: center;
+}
+.about-title h3{
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    padding: 6px;
+    border-bottom: 3px #383838 solid;
+    display: inline-block;
+}
+
+.about-desc-title h3{
+    color: #373737;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.about-desc-text p{
+    color: #373737;
+    width: 80%;
+}
+
+.about-desc-text{
+    margin-bottom: 40px;
+}
+
+.about-desc-link a{
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #373737;
+    border: 3px #373737 solid;
+    border-radius: 5px;
+}
+
+.about-desc-link a:hover{
+    background-color: #ffffff;
+    color: #373737;
+    transition: .5s;
+}
+
+
+.work-area{
+    background-image: url("../images/banner_2.png ") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+}
+.work-title{
+    text-align: center;
+}
+.work-title h3{
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 6px;
+    border-bottom: 3px #383838 solid;
+    display: inline-block;
+
+}
+
+.size{
+    width: 300px;
+    height: 300px;
+}
+
+.size a{
+    width: 100%;
+}
+
+.work-link{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.work-link a{
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #373737;
+    border: 3px #373737 solid;
+    border-radius: 5px; 
+}
+
+.work-link a:hover{
+    background: none;
+    color: #373737;
+    transition: .5s;
+}
+.contact-area{
+    margin-bottom: 30px;
+}
+.contact-title{
+    text-align: center;
+}
+
+.contact-title h3{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 6px;
+    border-bottom: 3px #383838 solid;
+    display: inline-block;
+}
+
+.contact-form textarea{
+    resize: none;
+    border: 1px #373737 solid;
+}
+
+.contact-form input{
+    width: 100%;
+    border: 1px #373737 solid;
+}
+.contact-send{
+    margin-top: 15px;
+
+}
+.contact-send a{
+
+    font-weight: bold;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #373737;
+    border: 3px #373737 solid;
+    border-radius: 5px; 
+}
+
+.contact-send a:hover{
+    background-color: #ffffff;
+    color: #373737;
+    transition: .5s;
+}
+.contact-details{
+    width: 57%;
+    margin: auto;
+}
+.contact-details i{
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.contact-details p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-area{
+    padding-top: 20px;
+    height: 140px;
+    background-color: #efefef;
+    text-align: center;
+   
+}
+
+.foot-link a{
+    padding: 5px;
+}
+.foot-link a i{
+    
+    color: #32302f;    
+    font-size: 20px;
+}
